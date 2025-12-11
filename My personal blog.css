@@ -1,0 +1,81 @@
+/* Website.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 10px;
+}
+
+.blog-post {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-image-container {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.blog-post h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.post-meta {
+    font-size: 0.8em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none; /* added to remove default button border */
+    cursor: pointer; /* make cursor a pointer when hovering button */
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #800080;
+    color: #fff;
+}
+
+.hidden-content {
+    display: none; /* Initially hide the extra content */
+    margin-top: 10px;
+}
